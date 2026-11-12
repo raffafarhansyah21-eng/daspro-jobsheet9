@@ -2,10 +2,13 @@ import java.util.Scanner;
 
 public class ArrayRataNilai18 {
     public static void main(String[] args) {
-        int[] nilaiMhs = new int[10];
         int total = 0;
         double rata2;
         Scanner input = new Scanner(System.in);
+
+        System.out.println("Masukkan Jumlah Mahasiswa: ");
+        int n = input.nextInt();
+        int[] nilaiMhs = new int[n];
 
         for (int i = 0; i < nilaiMhs.length; i++) {
             System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
