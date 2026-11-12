@@ -28,7 +28,7 @@ public class ArrayRataNilai18 {
         for (int i = 0; i < nilaiMhs.length; i++) {
             if (nilaiMhs[i] > 70) jmlLulus++;
         }
-        
+    
         System.out.println("Jumlah mahasiswa lulus: " + jmlLulus);
         System.out.println("Nilai tertinggi: " + tertinggi);
         System.out.println("Nilai terendah: " + terendah);

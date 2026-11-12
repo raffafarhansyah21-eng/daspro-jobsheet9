@@ -11,8 +11,9 @@ public class ArrayNilai18 {
         }
 
         for (int i = 0; i < nilaiAkhir.length; i++) {
-            if (nilaiAkhir[i] > 70);
-            System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (LULUS) ");
+            if (nilaiAkhir[i] > 70) {
+            System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (LULUS) "); 
+            }
         }
 
         int jmlLulus = 0, jmlTidakLulus = 0;
@@ -24,9 +25,8 @@ public class ArrayNilai18 {
             }
         }
 
-
-System.out.println("Jumlah mahasiswa lulus: " + jmlLulus);
-System.out.println("Jumlah mahasiswa tidak lulus: " + jmlTidakLulus);
+    System.out.println("Jumlah mahasiswa lulus: " + jmlLulus);
+    System.out.println("Jumlah mahasiswa tidak lulus: " + jmlTidakLulus);
 
         sc.close();
     }
